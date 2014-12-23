@@ -1,0 +1,4 @@
+$grid: 12;//12 colonnes
+$gutters: 1/3;//en pourcentage l'espace 
+$tab :40em;//
+$desk :70em;

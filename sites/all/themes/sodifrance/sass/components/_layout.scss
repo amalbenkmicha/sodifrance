@@ -1,0 +1,47 @@
+
+
+.l-region--branding{
+    background-color: #696969;
+
+}
+
+
+.l-region--navigation{
+    background-color: #DCDCDC;
+    width: 1920px;
+    height: 400px;
+}
+
+
+
+
+
+.l-region--header{
+	 @include logo-sprite(logo);
+    //background-color: #696969;
+	padding-top: 0px;
+	width: 1020px;
+	height: 100px; 
+	margin: 0 auto;
+
+}
+
+
+
+.region--debug--footer{
+    background-color: #4c6172;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+
+
+
+.admin-menu{
+	span{
+
+	 color: black;
+	}
+}
+
+
