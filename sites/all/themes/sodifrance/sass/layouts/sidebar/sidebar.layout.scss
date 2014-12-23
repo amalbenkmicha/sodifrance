@@ -4,7 +4,7 @@
 @import "singularitygs";
 
 // Globbing from within sub-folders only works with relative paths.
-@import "../../variables/**/*";
+//@import "variables/_grid/*";
 
 .l-page {
   margin: 0 auto;
@@ -14,28 +14,8 @@
   @include clearfix;
 }
 
-@include breakpoint($tab) {
-  .l-region--sidebar-first {
-    @include grid-span(3,10);  // means 3 colmuns starting from 10 position
-  }
-  .l-content {
-    @include grid-span(9,1); // means 9 colmuns starting from 1 
-  }
-}
 
 
-
-@include breakpoint($desk) {
-
-.l-region--sidebar-first {
-  @include grid-span(3,1);  // means 3 colmuns starting from 10 position
-  
-}
-
-.l-content {
-  @include grid-span(9,4); // means 9 colmuns starting from 4
-}
-}
 
 
 

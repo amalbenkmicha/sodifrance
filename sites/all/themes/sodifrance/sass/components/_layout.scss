@@ -9,7 +9,7 @@
 .l-region--navigation{
     background-color: #DCDCDC;
     width: 1920px;
-    height: 400px;
+   // height: 400px;
 }
 
 
@@ -18,7 +18,7 @@
 
 .l-region--header{
 	 @include logo-sprite(logo);
-    //background-color: #696969;
+    background-color: white ;
 	padding-top: 0px;
 	width: 1020px;
 	height: 100px; 

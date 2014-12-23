@@ -15,12 +15,12 @@ img, media {
 /* line 9, ../sass/components/_layout.scss */
 .l-region--navigation {
   background-color: #DCDCDC;
-  width: 1920px;
-  height: 400px; }
+  width: 1920px; }
 
 /* line 19, ../sass/components/_layout.scss */
 .l-region--header {
   background-position: 0 0;
+  background-color: white;
   padding-top: 0px;
   width: 1020px;
   height: 100px;
