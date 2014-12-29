@@ -7,6 +7,7 @@ template = sidebar-layout
 
 
 regions[branding]       = Branding
+regions[region-inner]   = region-inner
 regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted

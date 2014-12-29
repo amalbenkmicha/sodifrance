@@ -1,5 +1,5 @@
 /* line 48, logo/*.png */
-.logo-sprite, .l-region--header {
+.logo-sprite, .region-header {
   background-image: url('../images/generated/logo-s476e47d415.png');
   background-repeat: no-repeat; }
 
@@ -8,38 +8,21 @@
 img, media {
   max-width: 100%; }
 
-/* line 3, ../sass/components/_layout.scss */
-.l-region--branding {
-  background-color: #696969; }
-
-/* line 9, ../sass/components/_layout.scss */
-.l-region--navigation {
-  background-color: #DCDCDC;
-  width: 1920px; }
-
-/* line 19, ../sass/components/_layout.scss */
-.l-region--header {
-  background-position: 0 0;
-  background-color: white;
+/* line 2, ../sass/components/_layout.scss */
+.region-leaderboard {
   padding-top: 0px;
-  width: 1020px;
-  height: 100px;
-  margin: 0 auto; }
+  background-color: #4a6172;
+  color: #fff;
+  padding-bottom: 5px; }
 
-/* line 31, ../sass/components/_layout.scss */
+/* line 33, ../sass/components/_layout.scss */
+.region-header {
+  background-position: 0 0; }
+
+/* line 48, ../sass/components/_layout.scss */
 .region--debug--footer {
   background-color: #4c6172;
   color: #fff;
   margin-bottom: 0px; }
-
-/* line 41, ../sass/components/_layout.scss */
-.admin-menu span {
-  color: black; }
-
-/* line 27, ../sass/sodifrance.styles.scss */
-body {
-  color: #191919;
-  font-size: 1em;
-  font-family: "Century Gothic","Times New Roman",Georgia,Serif; }
 
 /*# sourceMappingURL=sodifrance.no-query.css.map */

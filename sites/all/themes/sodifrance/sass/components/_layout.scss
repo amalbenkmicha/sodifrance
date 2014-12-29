@@ -1,14 +1,25 @@
 
+.region-leaderboard{
 
-.l-region--branding{
-    background-color: #696969;
-
+	padding-top: 0px;
+	background-color: #4a6172;
+	color: #fff;
+	padding-bottom: 5px;
 }
 
 
+
+
+.l-region--branding {
+
+}
+ 
+
+
 .l-region--navigation{
-    background-color: #DCDCDC;
-    width: 1920px;
+    //background-color: #DCDCDC;
+  //  width: 1920px;
+ 
    // height: 400px;
 }
 
@@ -16,17 +27,23 @@
 
 
 
-.l-region--header{
-	 @include logo-sprite(logo);
-    background-color: white ;
-	padding-top: 0px;
-	width: 1020px;
-	height: 100px; 
-	margin: 0 auto;
 
+
+
+.region-header{
+	@include logo-sprite(logo);
+	
 }
 
 
+
+
+.region--debug--header{
+
+
+	
+
+}
 
 .region--debug--footer{
     background-color: #4c6172;
@@ -37,11 +54,7 @@
 
 
 
-.admin-menu{
-	span{
 
-	 color: black;
-	}
-}
+
 
 
